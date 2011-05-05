@@ -6,6 +6,7 @@
         position: absolute;
         left: -45px;
         top: 33%;
+        z-index: 100;
 }
 
 .slidey-menu-menu {
@@ -15,5 +16,6 @@
         padding: 10px;
         padding-top -5px;
         padding-bottom -5px;
+        z-index: 101;
 }
 
