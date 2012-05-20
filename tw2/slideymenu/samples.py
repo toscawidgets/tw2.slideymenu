@@ -8,21 +8,21 @@ See http://toscawidgets.org/documentation/WidgetBrowser for more information
 
 from widgets import MenuWidget
 
+
 class DemoMenuWidget(MenuWidget):
     items = [
         {
-            'label' : 'An item',
-            'href'  : "javascript:alert('clicked -- yes');",
-        },{
-            'label' : 'Another item',
-            'href'  : "javascript:alert('clicked -- yes');",
-        },{
-            'label' : 'An item with no href',
+            'label': 'An item',
+            'href': "javascript:alert('clicked -- yes');",
+        }, {
+            'label': 'Another item',
+            'href': "javascript:alert('clicked -- yes');",
+        }, {
+            'label': 'An item with no href',
         }
     ]
 
     label = 'A slidey menu'
     options = {
-        'width' : '500px'
+        'width': '500px'
     }
-
