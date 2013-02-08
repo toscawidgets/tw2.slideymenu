@@ -11,5 +11,5 @@
 % endfor
 </div>
 <script type="text/javascript">
-setupSlideyMenu('${w.selector}', ${w._options});
+setupSlideyMenu('${w.selector}', ${w._options | n});
 </script>
