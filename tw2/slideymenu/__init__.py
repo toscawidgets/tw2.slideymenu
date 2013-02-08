@@ -7,7 +7,7 @@ You can also see it in the `tw2 WidgetBrowser
 <http://tw2-demos.threebean.org/module?module=tw2.slideymenu>`_ although it
 doesn't do it justice.
 
-Get the source from http://github.com/ralphbean/tw2.slideymenu
+Get the source from http://github.com/toscawidgets/tw2.slideymenu
 """
 
 from widgets import *

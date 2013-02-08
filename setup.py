@@ -13,13 +13,13 @@ _extra_mako = ["Mako >= 0.1.1"]
 
 setup(
     name='tw2.slideymenu',
-    version='2.0b2',
+    version='2.1',
     description='toscawidgets2 wrapper for random filament group tools',
     long_description=long_description,
     author='Ralph Bean',
-    author_email='ralph.bean@gmail.com',
+    author_email='rbean@redhat.com',
     license='MIT',
-    url='http://github.com/ralphbean/tw2.slideymenu',
+    url='http://github.com/toscawidgets/tw2.slideymenu',
     install_requires=[
         "tw2.core>=2.0b2",
         "tw2.jquery",

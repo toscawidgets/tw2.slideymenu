@@ -1,7 +1,7 @@
 tw2.slideymenu
 ==============
 
-:Author: Ralph Bean <ralph.bean@gmail.com>
+:Author: Ralph Bean <rbean@redhat.com>
 
 .. comment: split here
 
@@ -25,10 +25,10 @@ do it justice.
 
 Links
 -----
-Get the `source from github <http://github.com/ralphbean/tw2.slideymenu>`_.
+Get the `source from github <http://github.com/toscawidgets/tw2.slideymenu>`_.
 
 `PyPI page <http://pypi.python.org/pypi/tw2.slideymenu>`_
-and `bugs <http://github.com/ralphbean/tw2.slideymenu/issues/>`_
+and `bugs <http://github.com/toscawidgets/tw2.slideymenu/issues/>`_
 
 Description
 -----------
@@ -40,3 +40,22 @@ server-side code and JavaScripts/CSS resources. The library aims to be:
 flexible, reliable, documented, performant, and as simple as possible.
 
 This package contains a menu that slides!
+
+Sampling tw2.slideymenu in the WidgetBrowser
+--------------------------------------------
+
+The best way to scope out ``tw2.slideymenu`` is to load its widgets in the
+``tw2.devtools`` WidgetBrowser.  To see the source code that configures them,
+check out ``tw2.slideymenu/tw2/slideymenu/samples.py``
+
+To give it a try you'll need git, python, and `virtualenvwrapper
+<http://pypi.python.org/pypi/virtualenvwrapper>`_.  Run::
+
+    $ git clone git://github.com/toscawidgets/tw2.slideymenu.git
+    $ cd tw2.slideymenu
+    $ mkvirtualenv tw2.slideymenu
+    (tw2.slideymenu) $ pip install tw2.devtools
+    (tw2.slideymenu) $ python setup.py develop
+    (tw2.slideymenu) $ paster tw2.browser
+
+...and browse to http://localhost:8000/ to check it out.
