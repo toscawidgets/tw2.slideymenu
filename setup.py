@@ -13,7 +13,7 @@ _extra_mako = ["Mako >= 0.1.1"]
 
 setup(
     name='tw2.slideymenu',
-    version='2.0b2',
+    version='2.1',
     description='toscawidgets2 wrapper for random filament group tools',
     long_description=long_description,
     author='Ralph Bean',
